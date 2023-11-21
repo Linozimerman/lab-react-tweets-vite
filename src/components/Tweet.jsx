@@ -7,7 +7,7 @@ import Actions from './Actions';
 
 
 function Tweet({ tweet }) {
-  console.log(tweet)
+  //console.log(tweet)
   return (
     <div className="tweet">
       <ProfileImage image={tweet.user.image} />
